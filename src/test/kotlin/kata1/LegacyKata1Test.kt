@@ -3,9 +3,7 @@ package kata1
 import kata1.legacy.Bird
 import kata1.legacy.Dog
 import kata1.legacy.Fish
-import org.junit.jupiter.api.Assertions.assertThrows
 import org.junit.jupiter.api.Test
-import kotlin.test.assertContains
 
 class LegacyKata1Test {
 
