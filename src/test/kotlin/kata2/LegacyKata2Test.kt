@@ -6,20 +6,20 @@ import org.junit.jupiter.api.Test
 class LegacyKata2Test {
 
     @Test
-    fun basicPrinterPrint(){
+    fun basicPrinterPrinting(){
         val basicPrinter = BasicPrinter()
         basicPrinter.print()
     }
 
     @Test
-    fun basicPrinterScan(){
+    fun basicPrinterScanning(){
         val basicPrinter = BasicPrinter()
         // Does nothing
         basicPrinter.scan()
     }
 
     @Test
-    fun basicPrinterFax(){
+    fun basicPrinterFaxing(){
         val basicPrinter = BasicPrinter()
         // Does nothing
         basicPrinter.fax()

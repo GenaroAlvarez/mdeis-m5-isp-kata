@@ -11,7 +11,7 @@ import kotlin.test.assertContains
 class LegacyKata3Test {
 
     @Test
-    fun flyCar() {
+    fun carFlying() {
         val car = Car()
         val exception = Assertions.assertThrows(UnsupportedOperationException::class.java) {
             car.fly()
@@ -20,13 +20,13 @@ class LegacyKata3Test {
     }
 
     @Test
-    fun driveCar() {
+    fun carDriving() {
         val car = Car()
         car.drive()
     }
 
     @Test
-    fun sailCar() {
+    fun carSailing() {
         val car = Car()
         val exception = Assertions.assertThrows(UnsupportedOperationException::class.java) {
             car.sail()
@@ -35,13 +35,13 @@ class LegacyKata3Test {
     }
 
     @Test
-    fun flyPlane() {
+    fun planeFlying() {
         val plane = Plane()
         plane.fly()
     }
 
     @Test
-    fun drivePlane() {
+    fun planeDriving() {
         val plane = Plane()
         val exception = Assertions.assertThrows(UnsupportedOperationException::class.java) {
             plane.drive()
@@ -50,7 +50,7 @@ class LegacyKata3Test {
     }
 
     @Test
-    fun sailPlane() {
+    fun planeSailing() {
         val plane = Plane()
         val exception = Assertions.assertThrows(UnsupportedOperationException::class.java) {
             plane.sail()
@@ -59,7 +59,7 @@ class LegacyKata3Test {
     }
 
     @Test
-    fun flyBoat() {
+    fun boatFlying() {
         val boat = Boat()
         val exception = Assertions.assertThrows(UnsupportedOperationException::class.java) {
             boat.fly()
@@ -68,7 +68,7 @@ class LegacyKata3Test {
     }
 
     @Test
-    fun driveBoat() {
+    fun boatDriving() {
         val boat = Boat()
         val exception = Assertions.assertThrows(UnsupportedOperationException::class.java) {
             boat.drive()
@@ -77,7 +77,7 @@ class LegacyKata3Test {
     }
 
     @Test
-    fun sailBoat() {
+    fun boatSailing() {
         val boat = Boat()
         boat.sail()
     }

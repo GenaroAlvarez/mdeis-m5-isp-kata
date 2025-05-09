@@ -24,10 +24,7 @@ class LegacyKata1Test {
     @Test
     fun birdSwimming() {
         val bird = Bird()
-        val swimException = assertThrows(NotImplementedError::class.java) {
-            bird.swim()
-        }
-        assertContains(swimException.message!!, "can't swim.");
+        bird.swim()
     }
 
     @Test
@@ -45,10 +42,7 @@ class LegacyKata1Test {
     @Test
     fun dogFlying() {
         val dog = Dog()
-        val flyException = assertThrows(NotImplementedError::class.java) {
-            dog.fly()
-        }
-        assertContains(flyException.message!!, "can't fly.")
+        dog.fly()
     }
 
     @Test
@@ -58,20 +52,14 @@ class LegacyKata1Test {
     }
 
     @Test
-    fun fishRunning(){
+    fun fishRunning() {
         val fish = Fish()
-        val runException = assertThrows(NotImplementedError::class.java) {
-            fish.run()
-        }
-        assertContains(runException.message!!, "can't run.")
+        fish.run()
     }
 
     @Test
-    fun fishFlying(){
+    fun fishFlying() {
         val fish = Fish()
-        val flyException = assertThrows(NotImplementedError::class.java) {
-            fish.fly()
-        }
-        assertContains(flyException.message!!, "can't fly.")
+        fish.fly()
     }
 }

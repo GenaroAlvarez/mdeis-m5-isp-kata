@@ -6,7 +6,7 @@ class Bird : Animal {
     }
 
     override fun swim() {
-        throw NotImplementedError("Bird can't swim.")
+        // Forced to implement
     }
 
     override fun run() {

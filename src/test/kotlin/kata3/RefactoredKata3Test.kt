@@ -8,19 +8,19 @@ import org.junit.jupiter.api.Test
 class RefactoredKata3Test {
 
     @Test
-    fun driveCar() {
+    fun carDriving() {
         val car = Car()
         car.drive()
     }
 
     @Test
-    fun flyPlane() {
+    fun planeFlying() {
         val plane = Plane()
         plane.fly()
     }
 
     @Test
-    fun sailBoat() {
+    fun boatSailing() {
         val boat = Boat()
         boat.sail()
     }

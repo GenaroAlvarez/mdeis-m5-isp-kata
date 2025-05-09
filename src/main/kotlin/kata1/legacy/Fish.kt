@@ -2,7 +2,7 @@ package kata1.legacy
 
 class Fish: Animal {
     override fun fly() {
-        throw NotImplementedError("Fish can't fly.")
+        // Forced to implement
     }
 
     override fun swim() {
@@ -10,6 +10,6 @@ class Fish: Animal {
     }
 
     override fun run() {
-        throw NotImplementedError("Fish can't run.")
+        // Forced to implement
     }
 }

@@ -1,4 +1,4 @@
-package kata1.refactored
+package kata1.refactored.interfaces
 
 interface Flyable {
     fun fly()
